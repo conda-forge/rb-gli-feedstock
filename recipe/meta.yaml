@@ -1,5 +1,5 @@
 {% set name = "gli" %}
-{% set version = "2.19.0" %}
+{% set version = "2.20.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 31dd578a13461cf53e47c8811e7e69b10fed8d4e50d3a38fd230a137223a70cb
+  sha256: 0396cdaa0f2c5d6c47eb0e77fe87292f7148164460db74697820f2356f8fb7eb
 
 build:
   noarch: generic
